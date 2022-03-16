@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.navbar-warapper a{
+    padding-left: 30px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +28,21 @@
 
 .App-link {
   color: #61dafb;
+}
+.delete{
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update{
+    background-color: green;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
 
 @keyframes App-logo-spin {
